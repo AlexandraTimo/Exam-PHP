@@ -1,0 +1,362 @@
+*{
+box-sizing: border-box;
+margin: 0;
+} 
+
+ body{
+height: 7000px;
+background: linear-gradient(135deg, rgb(199, 171, 171) 19%, rgb(242, 217, 217) 72%);
+background-repeat: no-repeat;
+background-size: cover;
+
+ }
+
+ .Header{
+  
+height: 800px;
+background-image: url(../image/150477-dribling-lot_futbol-sportivnye_trenirovki-igra_s_myachom-sportivnyj_inventar-2048x1152.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+border-radius: 15px 15px 0 0;
+border: 1px solid rgb(116, 115, 115);
+ width: 1980px;
+ 
+
+} 
+.Link{
+  color: white;
+  text-decoration: none;
+}
+
+.Link:hover{
+color: rgb(168, 141, 141);
+
+}
+
+.Table{
+background-color: white;
+font-size: 20px;
+border-radius: 15px;
+
+}
+
+ .FirstBlock{
+border: 1px solid rgba(128, 128, 128, 0.356);
+border-radius: 15px;
+ }
+
+ .FirstBlock:hover   {
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+-moz-box-shadow:0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+ }
+
+.Table:hover{
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+}
+
+ .CardTitle{
+font-family: 'Sanchez', serif;
+color:#F06292 ;
+ }
+
+.CardSoccerSchool{
+  border-radius: 0 0 15px 15px;
+
+}
+.CardSoccerSchool:hover{
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+}
+ .Border{
+border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+ }
+
+ img{
+width: 40px;
+height: 40px;
+ }
+
+
+
+ .card-img-top{
+width: 100%;
+height: auto
+ }
+
+ .BePart {
+  font-family: 'Sanchez', serif;
+font-size: 40px;
+ }
+
+
+ @media screen and (max-width: 576px) {
+  .ClubsTitle{
+font-size: 70px;
+position: absolute;
+top: 10px;
+left: 100px;
+  }
+} 
+
+ .Foo{
+position: relative;
+top: 0px;
+left: -25px;
+background: linear-gradient(135deg, rgb(77, 51, 51) 7%, rgb(231, 151, 151) 88%);
+} 
+
+ /* About */
+ .CARHEADER{
+background-image: url(../image/sport-nastroenie-nastroeniya-kluby-komandy-liverpul-football.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 30%;
+height: 300px;
+position: sticky;
+top: 0;
+ }
+
+ .OUR{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  letter-spacing: 0.405em;
+font-size: 70px;
+position: relative;
+top:100px;
+ }
+
+ @media screen and (max-width: 778px) {
+  .OUR{
+font-size: 40px;
+position: relative;
+top: 100px;
+left:0px
+  }
+
+}
+
+ .Number{
+font-size: 40px;
+color: black;
+ }
+
+ .NumberOne{
+font-family:sans-serif;
+letter-spacing: 0.02em;
+color: rgb(71, 51, 51);
+ }
+
+ .NumberTwo{
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color: white;
+   }
+
+.AllTime{
+ height: 30px;
+}
+
+.All{
+  font-family: 'Lato', sans-serif;
+  color: rgb(71, 51, 51);
+  letter-spacing: 0.02em;
+  font-size: 34px;
+}
+
+.Card{
+border-radius:  15px;
+}
+ 
+.Card:hover{
+  -webkit-box-shadow:0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  -moz-box-shadow:0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+}
+
+
+ .TitleCardStats{
+  font-family: 'Sanchez', serif;
+  color:#F06292 ;
+   font-size: 34px;
+ }
+
+ .FirstOne{
+  color:#F06292;
+  font-size: 15px;
+ }
+
+.Stripe{ 
+  background: linear-gradient(135deg, rgb(77, 51, 51) 7%, rgb(231, 151, 151) 88%);
+  height: 5px;
+  color: #F06292; 
+}
+
+
+ /* Clubs */
+.AfterHeadClubs{
+  /* background: rgba(245, 245, 245, 0.5); */
+  background-color: white;
+  position: absolute;
+  top: 498px;
+  left: 0;
+  height: 1800px;
+}
+
+.ClubsTitle{
+  font-family: 'Lato', sans-serif;
+  /* color: rgba(255, 255, 255, 0.21); */
+  color: white;
+font-size: 40px;
+letter-spacing: 0.04em;
+}
+
+  
+.CARDCLUBSHEADER{
+  background: linear-gradient(135deg, rgb(77, 51, 51) 7%, rgb(231, 151, 151) 88%);
+  height: 80px;
+  border-radius:15px;
+}
+
+
+
+.ArsenalTitle{
+  font-family: 'Lato', sans-serif;
+  color: white;
+font-size: 4em;
+letter-spacing: 0.04em;
+position: relative;
+top: -22px;
+left: 0;
+}
+
+
+.ArsenalTitle,.LiverpoolTitle,.ManTitle {
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;      
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Ars{
+width: 70px;
+height: 50px;
+}
+
+.ManchTitle{
+color: black;
+}
+
+
+/* Players */
+.DropClub{
+  font-family: 'Lato', sans-serif;
+  font-size: 34px;
+  color:rgb(71, 51, 51)
+}
+.DropClub:hover{
+  color:rgb(129, 83, 83)
+}
+
+
+.CARDCLUBSHEADER:hover{
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+  box-shadow: 0px 5px 10px 2px rgba(109, 109, 109, 0.479);
+}
+
+/* tables */
+.AfterHeadTables{
+  background: rgba(245, 245, 245, 0.5);
+  position: absolute;
+  top: 498px;
+  left: 0;
+  height: 5600px;
+}
+
+/* liverpool */
+
+.AfterHeadliv{
+width: 1980px;
+}
+
+.LiverpoolTitle{
+  font-family: 'Lato', sans-serif;
+  color: white;
+font-size: 3em;
+letter-spacing: 0.04em;
+position: relative;
+top: -5px;
+left: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .ClubsTitle{
+font-size: 20px;
+position: relative;
+left:0px
+  }
+
+}
+
+/* Manchester */
+.ManTitle{
+  font-family: 'Lato', sans-serif;
+  color: white;
+font-size: 40px;
+letter-spacing: 0.04em;
+position: relative;
+top: 0;
+left: 0;
+}
+@media screen and (max-width: 778px) {
+  .ManTitle{
+font-size: 35px;
+position: relative;
+top: 10px;
+left:0px
+
+  }
+
+}
+
+@media screen and (max-width: 576px)  {
+  .Nav{
+display: none;
+  }
+
+}
+
+/* login */
+
+.Form {
+	-webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes tilt-in-fwd-tr {
+  0% {
+    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+            transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+            transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
